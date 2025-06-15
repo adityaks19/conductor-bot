@@ -69,7 +69,7 @@ const showMainMenu = async (ctx) => {
       'Main Menu:',
       Markup.inlineKeyboard([
         [Markup.button.callback('🎫 Scan Ticket', 'scan_ticket')],
-        [Markup.button.callback('🚌 View Route Details', 'view_route')],
+        [Markup.button.callback('🚌 View Route Details', 'route_details')],
         [Markup.button.callback('📊 Generate Daily Report', 'daily_report')]
       ])
     );
@@ -101,58 +101,6 @@ const resetConversation = async (ctx) => {
     return handleStart(ctx);
   } catch (error) {
     console.error('Error in resetConversation:', error);
-    return ctx.reply('Sorry, something went wrong. Please try again.');
-  }
-};
-
-/**
- * Show route details
- * @param {Object} ctx - Telegram context
- */
-const showRouteDetails = async (ctx) => {
-  try {
-    const { id: telegramId } = ctx.from;
-
-    // Get conductor
-    const conductor = await Conductor.findOne({ telegramId: telegramId.toString() });
-
-    if (!conductor) {
-      return ctx.reply('Conductor not found. Please start over with /start');
-    }
-
-    // Mock route details - in a real app, this would come from a database
-    const routeDetails = {
-      routeNumber: 'CTU-42',
-      startPoint: 'Sector 17 Bus Stand',
-      endPoint: 'PGI Hospital',
-      stops: [
-        'Sector 17', 'Sector 16', 'Sector 15', 'Sector 11', 'PGI Hospital'
-      ],
-      departureTime: '08:00 AM',
-      arrivalTime: '09:30 AM'
-    };
-
-    // Display route details
-    let message = '🚌 Your Route Details:\n\n';
-    message += `Route Number: ${routeDetails.routeNumber}\n`;
-    message += `From: ${routeDetails.startPoint}\n`;
-    message += `To: ${routeDetails.endPoint}\n`;
-    message += `Departure: ${routeDetails.departureTime}\n`;
-    message += `Arrival: ${routeDetails.arrivalTime}\n\n`;
-    message += 'Stops:\n';
-
-    routeDetails.stops.forEach((stop, index) => {
-      message += `${index + 1}. ${stop}\n`;
-    });
-
-    return ctx.reply(
-      message,
-      Markup.inlineKeyboard([
-        [Markup.button.callback('Back to Main Menu', 'back_to_main')]
-      ])
-    );
-  } catch (error) {
-    console.error('Error in showRouteDetails:', error);
     return ctx.reply('Sorry, something went wrong. Please try again.');
   }
 };
@@ -206,6 +154,5 @@ module.exports = {
   handleHelp,
   showMainMenu,
   resetConversation,
-  showRouteDetails,
   generateDailyReport
 };
