@@ -1,0 +1,877 @@
+2025-06-15T17:44:59: Error in resetConversation: FetchError: request to https://api.telegram.org/bot7585625303:[REDACTED]/sendMessage failed, reason: 
+2025-06-15T17:44:59:     at ClientRequest.<anonymous> (/home/aditya/ctu/conductor-bot/node_modules/node-fetch/lib/index.js:1501:11)
+2025-06-15T17:44:59:     at ClientRequest.emit (node:events:518:28)
+2025-06-15T17:44:59:     at emitErrorEvent (node:_http_client:104:11)
+2025-06-15T17:44:59:     at TLSSocket.socketErrorListener (node:_http_client:518:5)
+2025-06-15T17:44:59:     at TLSSocket.emit (node:events:518:28)
+2025-06-15T17:44:59:     at emitErrorNT (node:internal/streams/destroy:170:8)
+2025-06-15T17:44:59:     at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+2025-06-15T17:44:59:     at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+2025-06-15T17:44:59:   type: 'system',
+2025-06-15T17:44:59:   errno: 'ETIMEDOUT',
+2025-06-15T17:44:59:   code: 'ETIMEDOUT'
+2025-06-15T17:44:59: }
+2025-06-18T17:45:31: Error starting bot: FetchError: request to https://api.telegram.org/bot7585625303:[REDACTED]/getMe failed, reason: 
+2025-06-18T17:45:31:     at ClientRequest.<anonymous> (/home/aditya/ctu/conductor-bot/node_modules/node-fetch/lib/index.js:1501:11)
+2025-06-18T17:45:31:     at ClientRequest.emit (node:events:518:28)
+2025-06-18T17:45:31:     at emitErrorEvent (node:_http_client:104:11)
+2025-06-18T17:45:31:     at TLSSocket.socketErrorListener (node:_http_client:518:5)
+2025-06-18T17:45:31:     at TLSSocket.emit (node:events:518:28)
+2025-06-18T17:45:31:     at emitErrorNT (node:internal/streams/destroy:170:8)
+2025-06-18T17:45:31:     at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+2025-06-18T17:45:31:     at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+2025-06-18T17:45:31:   type: 'system',
+2025-06-18T17:45:31:   errno: 'ETIMEDOUT',
+2025-06-18T17:45:31:   code: 'ETIMEDOUT'
+2025-06-18T17:45:31: }
+2025-06-18T17:45:41: Error starting bot: FetchError: request to https://api.telegram.org/bot7585625303:[REDACTED]/getMe failed, reason: 
+2025-06-18T17:45:41:     at ClientRequest.<anonymous> (/home/aditya/ctu/conductor-bot/node_modules/node-fetch/lib/index.js:1501:11)
+2025-06-18T17:45:41:     at ClientRequest.emit (node:events:518:28)
+2025-06-18T17:45:41:     at emitErrorEvent (node:_http_client:104:11)
+2025-06-18T17:45:41:     at TLSSocket.socketErrorListener (node:_http_client:518:5)
+2025-06-18T17:45:41:     at TLSSocket.emit (node:events:518:28)
+2025-06-18T17:45:41:     at emitErrorNT (node:internal/streams/destroy:170:8)
+2025-06-18T17:45:41:     at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+2025-06-18T17:45:41:     at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+2025-06-18T17:45:41:   type: 'system',
+2025-06-18T17:45:41:   errno: 'ETIMEDOUT',
+2025-06-18T17:45:41:   code: 'ETIMEDOUT'
+2025-06-18T17:45:41: }
+2025-06-27T11:50:07: Error starting bot: FetchError: request to https://api.telegram.org/bot7585625303:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/conductor-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T11:50:09: MongoDB connection error: MongoNetworkError: connect ETIMEDOUT 159.41.180.228:27017, connect ENETUNREACH 64:ff9b::9f29:b4e4:27017 - Local (:::0)
+    at connectionFailureError (/home/aditya/ctu/conductor-bot/node_modules/mongodb/lib/cmap/connect.js:367:20)
+    at TLSSocket.<anonymous> (/home/aditya/ctu/conductor-bot/node_modules/mongodb/lib/cmap/connect.js:290:22)
+    at Object.onceWrapper (node:events:633:26)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  cause: AggregateError [ETIMEDOUT]: 
+      at internalConnectMultiple (node:net:1139:18)
+      at internalConnectMultiple (node:net:1215:5)
+      at Timeout.internalConnectMultipleTimeout (node:net:1741:5)
+      at listOnTimeout (node:internal/timers:590:11)
+      at process.processTimers (node:internal/timers:523:7) {
+    code: 'ETIMEDOUT',
+    [errors]: [ [Error], [Error] ]
+  },
+  connectionGeneration: 0,
+  [Symbol(errorLabels)]: Set(1) { 'ResetPool' }
+}
+2025-06-27T11:50:17: Error starting bot: FetchError: request to https://api.telegram.org/bot7585625303:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/conductor-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T11:50:27: Error starting bot: FetchError: request to https://api.telegram.org/bot7585625303:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/conductor-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T11:57:32: Error starting bot: FetchError: request to https://api.telegram.org/bot7585625303:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/conductor-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T11:57:42: Error starting bot: FetchError: request to https://api.telegram.org/bot7585625303:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/conductor-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T11:57:53: Error starting bot: FetchError: request to https://api.telegram.org/bot7585625303:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/conductor-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T11:58:03: Error starting bot: FetchError: request to https://api.telegram.org/bot7585625303:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/conductor-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T11:58:14: Error starting bot: FetchError: request to https://api.telegram.org/bot7585625303:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/conductor-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T11:58:24: Error starting bot: FetchError: request to https://api.telegram.org/bot7585625303:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/conductor-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:00:52: Error starting bot: FetchError: request to https://api.telegram.org/bot7585625303:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/conductor-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:01:03: Error starting bot: FetchError: request to https://api.telegram.org/bot7585625303:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/conductor-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:01:14: Error starting bot: FetchError: request to https://api.telegram.org/bot7585625303:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/conductor-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:01:25: Error starting bot: FetchError: request to https://api.telegram.org/bot7585625303:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/conductor-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:01:35: Error starting bot: FetchError: request to https://api.telegram.org/bot7585625303:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/conductor-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:01:45: Error starting bot: FetchError: request to https://api.telegram.org/bot7585625303:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/conductor-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:01:56: Error starting bot: FetchError: request to https://api.telegram.org/bot7585625303:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/conductor-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:02:06: Error starting bot: FetchError: request to https://api.telegram.org/bot7585625303:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/conductor-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:02:17: Error starting bot: FetchError: request to https://api.telegram.org/bot7585625303:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/conductor-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:04:42: Error starting bot: FetchError: request to https://api.telegram.org/bot7585625303:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/conductor-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:09:33: Error starting bot: FetchError: request to https://api.telegram.org/bot7585625303:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/conductor-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:09:44: Error starting bot: FetchError: request to https://api.telegram.org/bot7585625303:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/conductor-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:09:46: MongoDB connection error: MongoNetworkError: connect ETIMEDOUT 159.41.180.228:27017, connect ENETUNREACH 64:ff9b::9f29:b4e4:27017 - Local (:::0)
+    at connectionFailureError (/home/aditya/ctu/conductor-bot/node_modules/mongodb/lib/cmap/connect.js:367:20)
+    at TLSSocket.<anonymous> (/home/aditya/ctu/conductor-bot/node_modules/mongodb/lib/cmap/connect.js:290:22)
+    at Object.onceWrapper (node:events:633:26)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  cause: AggregateError [ETIMEDOUT]: 
+      at internalConnectMultiple (node:net:1139:18)
+      at internalConnectMultiple (node:net:1215:5)
+      at Timeout.internalConnectMultipleTimeout (node:net:1741:5)
+      at listOnTimeout (node:internal/timers:590:11)
+      at process.processTimers (node:internal/timers:523:7) {
+    code: 'ETIMEDOUT',
+    [errors]: [ [Error], [Error] ]
+  },
+  connectionGeneration: 2,
+  [Symbol(errorLabels)]: Set(1) { 'ResetPool' }
+}
+2025-06-27T12:09:54: Error starting bot: FetchError: request to https://api.telegram.org/bot7585625303:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/conductor-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:10:05: Error starting bot: FetchError: request to https://api.telegram.org/bot7585625303:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/conductor-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+Error: Bot is not running!
+    at Telegraf.stop (/home/aditya/ctu/conductor-bot/node_modules/telegraf/lib/telegraf.js:218:19)
+    at process.<anonymous> (/home/aditya/ctu/conductor-bot/app.js:67:34)
+    at Object.onceWrapper (node:events:633:26)
+    at process.emit (node:events:518:28)
+2025-06-27T12:10:07: Error starting bot: FetchError: request to https://api.telegram.org/bot7585625303:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/conductor-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:10:14: MongoDB connection error: MongoNetworkError: connect ETIMEDOUT 159.41.180.228:27017, connect ENETUNREACH 64:ff9b::9f29:b4e4:27017 - Local (:::0)
+    at connectionFailureError (/home/aditya/ctu/conductor-bot/node_modules/mongodb/lib/cmap/connect.js:367:20)
+    at TLSSocket.<anonymous> (/home/aditya/ctu/conductor-bot/node_modules/mongodb/lib/cmap/connect.js:290:22)
+    at Object.onceWrapper (node:events:633:26)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  cause: AggregateError [ETIMEDOUT]: 
+      at internalConnectMultiple (node:net:1139:18)
+      at internalConnectMultiple (node:net:1215:5)
+      at Timeout.internalConnectMultipleTimeout (node:net:1741:5)
+      at listOnTimeout (node:internal/timers:590:11)
+      at process.processTimers (node:internal/timers:523:7) {
+    code: 'ETIMEDOUT',
+    [errors]: [ [Error], [Error] ]
+  },
+  connectionGeneration: 5,
+  [Symbol(errorLabels)]: Set(1) { 'ResetPool' }
+}
+2025-06-27T12:10:17: Error starting bot: FetchError: request to https://api.telegram.org/bot7585625303:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/conductor-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:10:27: Error starting bot: FetchError: request to https://api.telegram.org/bot7585625303:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/conductor-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:10:38: Error starting bot: FetchError: request to https://api.telegram.org/bot7585625303:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/conductor-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:10:48: Error starting bot: FetchError: request to https://api.telegram.org/bot7585625303:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/conductor-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:10:58: Error starting bot: FetchError: request to https://api.telegram.org/bot7585625303:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/conductor-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+Error: Bot is not running!
+    at Telegraf.stop (/home/aditya/ctu/conductor-bot/node_modules/telegraf/lib/telegraf.js:218:19)
+    at process.<anonymous> (/home/aditya/ctu/conductor-bot/app.js:67:34)
+    at Object.onceWrapper (node:events:633:26)
+    at process.emit (node:events:518:28)
+2025-06-27T12:11:07: Error starting bot: FetchError: request to https://api.telegram.org/bot7585625303:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/conductor-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:11:12: MongoDB connection error: MongoNetworkError: connect ETIMEDOUT 159.41.180.228:27017, connect ENETUNREACH 64:ff9b::9f29:b4e4:27017 - Local (:::0)
+    at connectionFailureError (/home/aditya/ctu/conductor-bot/node_modules/mongodb/lib/cmap/connect.js:367:20)
+    at TLSSocket.<anonymous> (/home/aditya/ctu/conductor-bot/node_modules/mongodb/lib/cmap/connect.js:290:22)
+    at Object.onceWrapper (node:events:633:26)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  cause: AggregateError [ETIMEDOUT]: 
+      at internalConnectMultiple (node:net:1139:18)
+      at internalConnectMultiple (node:net:1215:5)
+      at Timeout.internalConnectMultipleTimeout (node:net:1741:5)
+      at listOnTimeout (node:internal/timers:590:11)
+      at process.processTimers (node:internal/timers:523:7) {
+    code: 'ETIMEDOUT',
+    [errors]: [ [Error], [Error] ]
+  },
+  connectionGeneration: 1,
+  [Symbol(errorLabels)]: Set(1) { 'ResetPool' }
+}
+2025-06-27T12:12:10: Error starting bot: FetchError: request to https://api.telegram.org/bot7585625303:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/conductor-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:12:21: Error starting bot: FetchError: request to https://api.telegram.org/bot7585625303:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/conductor-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+Error: Bot is not running!
+    at Telegraf.stop (/home/aditya/ctu/conductor-bot/node_modules/telegraf/lib/telegraf.js:218:19)
+    at process.<anonymous> (/home/aditya/ctu/conductor-bot/app.js:67:34)
+    at Object.onceWrapper (node:events:633:26)
+    at process.emit (node:events:518:28)
+2025-06-27T12:12:26: Error starting bot: FetchError: request to https://api.telegram.org/bot7585625303:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/conductor-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:12:34: MongoDB connection error: MongoNetworkError: connect ETIMEDOUT 159.41.180.228:27017, connect ENETUNREACH 64:ff9b::9f29:b4e4:27017 - Local (:::0)
+    at connectionFailureError (/home/aditya/ctu/conductor-bot/node_modules/mongodb/lib/cmap/connect.js:367:20)
+    at TLSSocket.<anonymous> (/home/aditya/ctu/conductor-bot/node_modules/mongodb/lib/cmap/connect.js:290:22)
+    at Object.onceWrapper (node:events:633:26)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  cause: AggregateError [ETIMEDOUT]: 
+      at internalConnectMultiple (node:net:1139:18)
+      at internalConnectMultiple (node:net:1215:5)
+      at Timeout.internalConnectMultipleTimeout (node:net:1741:5)
+      at listOnTimeout (node:internal/timers:590:11)
+      at process.processTimers (node:internal/timers:523:7) {
+    code: 'ETIMEDOUT',
+    [errors]: [ [Error], [Error] ]
+  },
+  connectionGeneration: 8,
+  [Symbol(errorLabels)]: Set(1) { 'ResetPool' }
+}
+2025-06-27T12:12:36: Error starting bot: FetchError: request to https://api.telegram.org/bot7585625303:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/conductor-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:12:46: Error starting bot: FetchError: request to https://api.telegram.org/bot7585625303:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/conductor-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:13:34: Error starting bot: FetchError: request to https://api.telegram.org/bot7585625303:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/conductor-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:14:02: MongoDB connection error: Error: querySrv ETIMEOUT _mongodb._tcp.ctu-bot.mojl7hg.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17) {
+  errno: undefined,
+  code: 'ETIMEOUT',
+  syscall: 'querySrv',
+  hostname: '_mongodb._tcp.ctu-bot.mojl7hg.mongodb.net'
+}
+2025-06-27T12:14:48: Error starting bot: FetchError: request to https://api.telegram.org/bot7585625303:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/conductor-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:14:59: Error starting bot: FetchError: request to https://api.telegram.org/bot7585625303:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/conductor-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:15:12: MongoDB connection error: Error: querySrv ETIMEOUT _mongodb._tcp.ctu-bot.mojl7hg.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17) {
+  errno: undefined,
+  code: 'ETIMEOUT',
+  syscall: 'querySrv',
+  hostname: '_mongodb._tcp.ctu-bot.mojl7hg.mongodb.net'
+}
+2025-06-27T12:15:56: Error starting bot: FetchError: request to https://api.telegram.org/bot7585625303:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/conductor-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:16:07: Error starting bot: FetchError: request to https://api.telegram.org/bot7585625303:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/conductor-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:16:17: Error starting bot: FetchError: request to https://api.telegram.org/bot7585625303:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/conductor-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:16:28: Error starting bot: FetchError: request to https://api.telegram.org/bot7585625303:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/conductor-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+Error: Bot is not running!
+    at Telegraf.stop (/home/aditya/ctu/conductor-bot/node_modules/telegraf/lib/telegraf.js:218:19)
+    at process.<anonymous> (/home/aditya/ctu/conductor-bot/app.js:68:35)
+    at Object.onceWrapper (node:events:633:26)
+    at process.emit (node:events:518:28)
+2025-06-27T12:17:06: Error starting bot: FetchError: request to https://api.telegram.org/bot7585625303:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/conductor-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:17:17: Error starting bot: FetchError: request to https://api.telegram.org/bot7585625303:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/conductor-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:17:27: Error starting bot: FetchError: request to https://api.telegram.org/bot7585625303:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/conductor-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:17:38: Error starting bot: FetchError: request to https://api.telegram.org/bot7585625303:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/conductor-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:17:48: Error starting bot: FetchError: request to https://api.telegram.org/bot7585625303:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/conductor-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+Error: Bot is not running!
+    at Telegraf.stop (/home/aditya/ctu/conductor-bot/node_modules/telegraf/lib/telegraf.js:218:19)
+    at process.<anonymous> (/home/aditya/ctu/conductor-bot/app.js:67:34)
+    at Object.onceWrapper (node:events:633:26)
+    at process.emit (node:events:518:28)
+2025-06-27T12:17:57: Error starting bot: FetchError: request to https://api.telegram.org/bot7585625303:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/conductor-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:22:22: Error starting bot: FetchError: request to https://api.telegram.org/bot7585625303:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/conductor-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+Error: Bot is not running!
+    at Telegraf.stop (/home/aditya/ctu/conductor-bot/node_modules/telegraf/lib/telegraf.js:218:19)
+    at process.<anonymous> (/home/aditya/ctu/conductor-bot/app.js:67:34)
+    at Object.onceWrapper (node:events:633:26)
+    at process.emit (node:events:518:28)
+2025-06-27T12:22:28: Error starting bot: FetchError: request to https://api.telegram.org/bot7585625303:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/conductor-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:23:34: Error starting bot: FetchError: request to https://api.telegram.org/bot7585625303:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/conductor-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:24:23: Error starting bot: FetchError: request to https://api.telegram.org/bot7585625303:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/conductor-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:24:34: Error starting bot: FetchError: request to https://api.telegram.org/bot7585625303:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/conductor-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+Error: Bot is not running!
+    at Telegraf.stop (/home/aditya/ctu/conductor-bot/node_modules/telegraf/lib/telegraf.js:218:19)
+    at process.<anonymous> (/home/aditya/ctu/conductor-bot/app.js:67:34)
+    at Object.onceWrapper (node:events:633:26)
+    at process.emit (node:events:518:28)

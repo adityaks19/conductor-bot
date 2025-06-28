@@ -40,6 +40,15 @@ bot.on('text', ticketController.handleTicketText);
 app.use(express.json());
 
 // Health check endpoint
+app.get('/health', (req, res) => {
+  res.status(200).json({ 
+    status: 'OK', 
+    timestamp: new Date().toISOString(),
+    service: 'conductor-bot'
+  });
+});
+
+// Root endpoint
 app.get('/', (req, res) => {
   res.send('Conductor Bot Server is running!');
 });
